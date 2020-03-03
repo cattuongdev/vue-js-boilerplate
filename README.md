@@ -1,14 +1,31 @@
-# Real World Vue.js Boilerplate
+# Vue.js Font-end test at finso
 This project based on real world practice and ready to use. Have a fun!
+
+
+## Build Setup
+``` bash
+# clone repo
+git clone https://github.com/cattuongdev/finso-font-end-test.git
+
+# install dependencies
+npm install
+
+# start with hot reload at localhost:8080
+npm start
+
+# serve with hot reload at localhost:8080
+npm run serve
+
+# build for production with minification
+npm run build
+```
 
 ## Features
 - Http request class that implements API calls with Auth and tokens refresh based on Axios
 - Data access layer/API calls
 - Response wrapper/Response error wrapper
 - Base common and layout components
-- Some help mixins
 - Vue CLI v3
-- Developed to work with: https://github.com/zmts/supra-api-nodejs
 
 ## Project structure
 - [`src`](#src)
@@ -134,33 +151,3 @@ Set up yours svg icons in `src/components/icons/` folder. Modify `UiIconBase.vue
 ```
 <UiIconBase size="40" color="yellow" icon="write"/>
 ```
-
-## Build Setup
-``` bash
-# clone repo
-git clone https://github.com/zmts/vuejs-boilerplate.git
-
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run serve
-
-# build for production with minification
-npm run build
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-# TODO
-- Add global loading component
-- Add more examples
-
-# Amazing repos where I found some great approaches:
-- https://github.com/sdras/vue-sample-svg-icons
-- https://github.com/MillerRen/vue-boilerplate
-- https://github.com/vuejs-tips/v-debounce
-
-__!!! Project still in progress !!!__
-
-_2017 - 2018 - 2019 - 2020 ..._
