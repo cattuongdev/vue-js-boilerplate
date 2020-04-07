@@ -1,11 +1,11 @@
-# Vue.js Font-end test at finso
+# Vue.js boilerplate
 This project based on real world practice and ready to use. Have a fun!
 
 
 ## Build Setup
 ``` bash
 # clone repo
-git clone https://github.com/cattuongdev/finso-font-end-test.git
+git clone https://github.com/cattuongdev/vue-js-boilerplate.git
 
 # install dependencies
 npm install
